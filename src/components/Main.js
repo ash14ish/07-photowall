@@ -27,7 +27,7 @@ export default class extends Component {
           <Route exact path="/addPhoto" element={<Form {...this.props} />} />
           <Route
             exact
-            path="/single/:id"
+            path="/:id"
             element={<Single loading={this.state.loading} {...this.props} />}
           />
         </Routes>

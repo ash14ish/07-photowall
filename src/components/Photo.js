@@ -9,12 +9,12 @@ class Photo extends Component {
     const description = post.description
       .toLowerCase()
       .split(" ")
-      .map(curr => curr.replace(curr[0], curr[0].toUpperCase()))
+      .map((curr) => curr.replace(curr[0], curr[0].toUpperCase()))
       .join(" ");
 
     return (
       <figure className="figure">
-        <Link to={`/single/${post.id}`}>
+        <Link to={`/${post.id}`}>
           <img className="photo" src={post.imageLink} alt={post.description} />
         </Link>
         <figcaption>
