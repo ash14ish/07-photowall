@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/08-emplolist/static/css/main.afac2a5b.css",
-    "main.js": "/08-emplolist/static/js/main.f2df77a8.js",
-    "static/media/open-bin.png": "/08-emplolist/static/media/open-bin.8509b0dbf19f98cae77a.png",
-    "static/media/add.png": "/08-emplolist/static/media/add.53bbfdde948cb3ee63c3.png",
-    "index.html": "/08-emplolist/index.html",
-    "main.afac2a5b.css.map": "/08-emplolist/static/css/main.afac2a5b.css.map",
-    "main.f2df77a8.js.map": "/08-emplolist/static/js/main.f2df77a8.js.map"
+    "main.css": "./static/css/main.9f4ddad3.css",
+    "main.js": "./static/js/main.36cfe2cf.js",
+    "static/media/Billabong.ttf": "./static/media/Billabong.0e94b13a1cfb505ff271.ttf",
+    "static/media/add.png": "./static/media/add.53bbfdde948cb3ee63c3.png",
+    "index.html": "./index.html",
+    "main.9f4ddad3.css.map": "./static/css/main.9f4ddad3.css.map",
+    "main.36cfe2cf.js.map": "./static/js/main.36cfe2cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.afac2a5b.css",
-    "static/js/main.f2df77a8.js"
+    "static/css/main.9f4ddad3.css",
+    "static/js/main.36cfe2cf.js"
   ]
 }
