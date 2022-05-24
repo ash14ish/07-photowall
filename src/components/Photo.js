@@ -30,7 +30,7 @@ class Photo extends Component {
           >
             Remove
           </button>
-          <Link to={`/single/${post.id}`} className="button">
+          <Link to={`/${post.id}`} className="button">
             <div className="comment-count">
               <div className="speech-bubble"></div>
               {count}
