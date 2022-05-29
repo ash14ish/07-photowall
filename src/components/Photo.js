@@ -7,14 +7,15 @@ class Photo extends Component {
     const post = this.props.post;
     const count = this.props.comments[this.props.post.id]?.length || 0;
     const description = post.description
+      .trim()
       .toLowerCase()
       .split(" ")
-      .map((curr) => curr.replace(curr[0], curr[0].toUpperCase()))
+      .map(curr => curr.replace(curr[0], curr[0].toUpperCase()))
       .join(" ");
 
     return (
       <figure className="figure">
-        <Link to={`/${post.id}`}>
+        <Link to={`${post.id}`}>
           <img className="photo" src={post.imageLink} alt={post.description} />
         </Link>
         <figcaption>

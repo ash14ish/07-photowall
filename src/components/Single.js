@@ -4,8 +4,9 @@ import Comments from "./Comments";
 
 class Single extends Component {
   render() {
-    const path = window.location.pathname;
+    const path = window.location.hash;
     const id = +path.slice(path.lastIndexOf("/") + 1);
+
     const post = this.props.posts.find(curr => curr.id === id);
     const comments = this.props.comments[id] || [];
 
