@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  Navigate,
+} from "react-router-dom";
 
 import PhotoWall from "./Photowall";
 import Form from "./Form";
@@ -30,6 +37,7 @@ export default class extends Component {
             path="/:id"
             element={<Single loading={this.state.loading} {...this.props} />}
           />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
     );

@@ -15,7 +15,7 @@ class Photo extends Component {
 
     return (
       <figure className="figure">
-        <Link to={`/${post.id}`}>
+        <Link to={`${post.id}`}>
           <img className="photo" src={post.imageLink} alt={post.description} />
         </Link>
         <figcaption>
@@ -26,12 +26,12 @@ class Photo extends Component {
             className="remove-button"
             onClick={() => {
               this.props.removingPost(post.id);
-              this.props.navigate("/", { replace: true });
+              this.props.navigate("/");
             }}
           >
             Remove
           </button>
-          <Link to={`/${post.id}`} className="button">
+          <Link to={`${post.id}`} className="button">
             <div className="comment-count">
               <div className="speech-bubble"></div>
               {count}
