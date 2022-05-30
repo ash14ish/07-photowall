@@ -1,7 +1,7 @@
 {
   "name": "09-photowall",
   "version": "0.1.0",
-  "homepage": "https://ash14ish.github.io/09-photowall/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
