@@ -14,7 +14,7 @@ class Single extends Component {
     // console.log(this.props.posts);
 
     if (this.props.loading === true)
-      return <div className="loader">...Loading</div>;
+      return <div className="loader">Loading...</div>;
     else if (post) {
       return (
         <div className="single-photo">
