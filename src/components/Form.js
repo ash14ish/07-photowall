@@ -10,8 +10,8 @@ class Form extends Component {
     const post = { id: +new Date(), imageLink, description };
     if (imageLink && description) {
       this.props.addingPost(post);
+      this.props.navigate("/");
     }
-    this.props.navigate("/");
   }
 
   render() {
