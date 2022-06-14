@@ -245,10 +245,24 @@ button:focus,
 
   .form button {
     padding: 5px;
+    border-radius: 5px;
   }
 
   .form input {
     padding: 11px;
+    border-radius: 3px;
+  }
+
+  .single-photo {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .single-photo .figure {
+    border-bottom: 1px solid #7e7e7e;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
   }
 }
 
