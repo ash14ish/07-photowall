@@ -27,7 +27,7 @@ export default class extends Component {
     return (
       <Router>
         <h1>
-          <Link to="/">PhotoWall</Link>
+          <Link to="/">Photo Wall</Link>
         </h1>
         <Routes>
           <Route exact path="/" element={<PhotoWall {...this.props} />} />
