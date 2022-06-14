@@ -232,7 +232,7 @@ button:focus,
   }
 
   h1 a {
-    color: rgb(194, 46, 71);
+    color: rgb(206, 69, 92);
   }
 
   .addIcon {
@@ -240,6 +240,7 @@ button:focus,
   }
 
   .form {
+    margin-top: 10rem;
     width: 260px;
   }
 
