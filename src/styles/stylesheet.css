@@ -16,11 +16,10 @@ h1 {
   font-size: 13rem;
   margin: 2rem 0;
   letter-spacing: -1px;
-  color: black;
 }
 
 h1 a {
-  color: black;
+  color: rgb(200, 15, 46);
   text-decoration: none;
 }
 
@@ -86,23 +85,28 @@ body {
   flex: 1 0 40%;
   max-width: 40%;
 }
+
 .single-photo .photo {
   width: 100%;
   margin: 0;
 }
+
 .photo {
   width: calc(100% + 4rem);
   margin-left: -2rem;
   margin-top: -2rem;
   max-width: none;
 }
+
 .comment {
   width: 100%;
 }
+
 .comment p {
   border-bottom: 1px solid #d3d3d3;
   padding: 0.5rem 0;
 }
+
 .comment-form input,
 .comment-form textarea {
   width: 100%;
@@ -113,6 +117,7 @@ body {
   outline: none;
   resize: vertical;
 }
+
 .addIcon {
   background: url("./add.png") center no-repeat;
   background-size: contain;
@@ -121,12 +126,14 @@ body {
   margin: 0 auto 30px auto;
   border: none;
 }
+
 .button-container {
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 button,
 .button {
   border: 2px solid #f2f2f2;
@@ -142,6 +149,7 @@ button,
   transition: all 0.2s;
   box-sizing: padding-box;
 }
+
 button:hover,
 .button:hover,
 button:focus,
@@ -149,6 +157,7 @@ button:focus,
   border-color: #00f;
   outline: 0;
 }
+
 .speech-bubble {
   background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png")
     center no-repeat;
@@ -159,6 +168,7 @@ button:focus,
   border: none;
   position: relative;
 }
+
 .comment-count {
   margin: 0 auto;
   display: flex;
@@ -166,6 +176,7 @@ button:focus,
   justify-content: center;
   color: black;
 }
+
 .form {
   width: 360px;
   padding: 0 0 0;
@@ -183,6 +194,7 @@ button:focus,
   box-sizing: border-box;
   font-size: 14px;
 }
+
 .form button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -197,11 +209,13 @@ button:focus,
   transition: all 0.3 ease;
   cursor: pointer;
 }
+
 .form button:hover,
 .form button:active,
 .form button:focus {
   background: #7b8589;
 }
+
 .loader {
   height: 20%;
   width: 100%;
@@ -210,4 +224,26 @@ button:focus,
   align-items: center;
   justify-content: center;
   font-size: 28pt;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  .addIcon {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 280px) {
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .addIcon {
+    padding: 15px;
+    text-align: center;
+  }
 }
