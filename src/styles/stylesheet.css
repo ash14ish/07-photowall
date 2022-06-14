@@ -242,6 +242,14 @@ button:focus,
   .form {
     width: 260px;
   }
+
+  .form button {
+    padding: 5px;
+  }
+
+  .form input {
+    padding: 11px;
+  }
 }
 
 @media (max-width: 280px) {
