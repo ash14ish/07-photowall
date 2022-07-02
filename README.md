@@ -52,4 +52,4 @@ Your app is ready to be deployed!
 - Various life cycle methods such as ComponentDidUpdate, ComponentDidMount is used to achieve state and props update and rendering.
 - React event management and lifting state up.
 - Firebase is used to collect and store the data.
-- ActionCreators are used to consume the promises befor dispatching an action. Redux and redux-thunk (applyMiddleware) is used to achieve this.
+- ActionCreators are used to consume the promises before dispatching an action. Redux and redux-thunk (applyMiddleware) is used to achieve this.
